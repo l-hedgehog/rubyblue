@@ -4,7 +4,7 @@ Style name: 		Port Ruby Blue
 File name: 			stylers.xml
 Created by:			tomsolo (aka tonoslo on sourceforge.net)
 				http://www.3276.hu
-Featured language:	Php, Css, Sql, Javascript, Html, XML. 
+Featured language:	batch, css, diff, html, javascript, NSIS, PHP, Python, SQL, xml. 
 Note: 			If u create other languages with this style please send me the modified styler.xml : tonoslo at users.sourceforge.net (ty!)
 Other info:			this style is based on and inspired by Textmate (a Mac source editor, http:/www.textmate.org) user submitted theme:
 				Ruby Blue theme created by John W. Long, http://wiseheartdesign.com/articles/2006/03/11/ruby-blue-textmate-theme)
@@ -230,7 +230,7 @@ http://sourceforge.net/donate/index.php?group_id=95717
         <LexerType name="xml" desc="XML" ext="">
             <WordsStyle name="XMLSTART" styleID="12" fgColor="FF00FF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="XMLEND" styleID="13" fgColor="FF00FF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="5" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="F08047" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
@@ -258,12 +258,12 @@ http://sourceforge.net/donate/index.php?group_id=95717
         </LexerType>
         <LexerType name="diff" desc="DIFF" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMAND" styleID="2" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="HEADER" styleID="3" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="POSITION" styleID="4" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DELETED" styleID="5" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ADDED" styleID="6" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="2" fgColor="FFFF80" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HEADER" styleID="3" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="POSITION" styleID="4" fgColor="FF00FF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DELETED" styleID="5" fgColor="F08047" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ADDED" styleID="6" fgColor="7BD827" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="FFFFFF" bgColor="112435" fontSize="" fontStyle="0" />
@@ -339,29 +339,29 @@ http://sourceforge.net/donate/index.php?group_id=95717
         </LexerType>
         <LexerType name="python" desc="Python" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="2" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="3" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="4" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="KEYWORDS" styleID="5" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TRIPLE" styleID="6" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASSNAME" styleID="8" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEFNAME" styleID="9" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRINGEOL" styleID="12" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="FF00FF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="3" fgColor="F08047" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="4" fgColor="F08047" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="5" fgColor="FFFF80" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="TRIPLE" styleID="6" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFNAME" styleID="9" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="7BD827" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRINGEOL" styleID="12" fgColor="730080" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="batch" desc="Batch" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="KEYWORDS" styleID="2" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="LABEL" styleID="3" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="HIDE SYBOL" styleID="4" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMAND" styleID="5" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VARIABLE" styleID="6" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="7" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="2" fgColor="FFFF80" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="LABEL" styleID="3" fgColor="FF0000" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HIDE SYBOL" styleID="4" fgColor="FF00FF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="5" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="6" fgColor="00FF00" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="7" fgColor="7BD827" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="lua" desc="Lua" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
@@ -389,20 +389,20 @@ http://sourceforge.net/donate/index.php?group_id=95717
         </LexerType>
         <LexerType name="nsis" desc="NSIS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING DOUBLE QUOTE" styleID="2" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING LEFT QUOTE" styleID="3" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING RIGHT QUOTE" styleID="4" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="">endfunction endif</WordsStyle>
-            <WordsStyle name="FUNCTION" styleID="5" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="VARIABLE" styleID="6" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="LABEL" styleID="7" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="USER DEFINED" styleID="8" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-            <WordsStyle name="SECTION" styleID="9" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="3A8BDA" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING DOUBLE QUOTE" styleID="2" fgColor="F08047" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING LEFT QUOTE" styleID="3" fgColor="F08047" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING RIGHT QUOTE" styleID="4" fgColor="F08047" bgColor="112435" fontName="" fontStyle="0" fontSize="">endfunction endif</WordsStyle>
+            <WordsStyle name="FUNCTION" styleID="5" fgColor="FFFF80" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="VARIABLE" styleID="6" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="LABEL" styleID="7" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="USER DEFINED" styleID="8" fgColor="8DB0D3" bgColor="112435" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="SECTION" styleID="9" fgColor="FFFF80" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SUBSECTION" styleID="10" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="IF DEFINE" styleID="11" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="MACRO" styleID="12" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING VAR" styleID="13" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="14" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MACRO" styleID="12" fgColor="FFFF80" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING VAR" styleID="13" fgColor="F08047" bgColor="314455" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="14" fgColor="FF00FF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="actionscript" desc="ActionScript" ext="">
             <!--
@@ -581,7 +581,7 @@ http://sourceforge.net/donate/index.php?group_id=95717
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
         <WidgetStyle name="Global override" styleID="0" fgColor="FFFF80" bgColor="FF8000" fontName="Courier New" fontStyle="0" fontSize="10" />
-        <WidgetStyle name="Default Style" styleID="32" fgColor="FFFFFF" bgColor="112435" fontName="Monaco" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="FFFFFF" bgColor="112435" fontName="Monaco" fontStyle="0" fontSize="9" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="0080FF" bgColor="112435" fontName="" fontStyle="1" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="FFFFFF" bgColor="112435" fontName="" fontStyle="0" fontSize="" />
